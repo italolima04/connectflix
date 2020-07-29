@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
+
 import Logo from "../../assets/Logo-2.png";
 import "./styles.css";
 
@@ -8,11 +11,11 @@ import Button from "../../components/Button";
 function Header() {
   return (
     <nav className="Header">
-      <a href="/">
+      <Link to="/">
         <img className="Logo" src={Logo} alt="Logo da Aplicação" />
-      </a>
+      </Link>
 
-      <Button as="a" href="/" className="ButtonLink">
+      <Button as={Link} to="/cadastro/video" className="ButtonLink">
         Novo Vídeo
       </Button>
     </nav>

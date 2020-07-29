@@ -11,8 +11,8 @@ function Footer() {
         />
       </a>
       <p>
-        Orgulhosamente criado durante a
-        <a href="https://www.alura.com.br/">Imersão React da Alura</a>
+        Aplicação Desenvolvida durante a
+        <a href="https://www.alura.com.br/"> Imersão React da Alura</a>
       </p>
     </FooterBase>
   );
