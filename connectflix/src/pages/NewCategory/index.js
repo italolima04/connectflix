@@ -5,12 +5,12 @@ import Default from "../../components/Default";
 
 export default function NewCategory() {
   return (
-    <div>
+    <>
       <Default>
         <h1>Cadastrar Nova Categoria</h1>
 
         <Link to="/">Ir para Home </Link>
       </Default>
-    </div>
+    </>
   );
 }
